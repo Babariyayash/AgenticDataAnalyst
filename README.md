@@ -1,5 +1,8 @@
 # Agentic Data Analysis Project
 
+https://github.com/user-attachments/assets/b9db5b19-6b0b-4617-8f51-5202fcb33a37
+
+
 ## Overview
 This project, **Agentic Data Analysis**, leverages cutting-edge technologies like LangGraph, Streamlit, and LangChain to provide an interactive platform for data exploration and visualization. The project empowers users to upload datasets, query them dynamically, and generate insightful visualizations in real time.
 
@@ -48,9 +51,6 @@ This project, **Agentic Data Analysis**, leverages cutting-edge technologies lik
    ```
 2. Access the application in your browser at `http://localhost:8501`.
 
-## Demo Video
-Take a look at the below video for a demo:
-https://github.com/user-attachments/assets/b9db5b19-6b0b-4617-8f51-5202fcb33a37
 
 
 ## Directory Structure
