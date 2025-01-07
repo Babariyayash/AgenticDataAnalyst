@@ -52,7 +52,7 @@ This project, **Agentic Data Analysis**, leverages cutting-edge technologies lik
 Take a look at the below video for a demo:
 
 <video controls>
-  <source src="https://github.com/Babariyayash/AgenticDataAnalyst/issues/1#issuecomment-2574289436" type="video/mp4">
+  <source src="https://github.com/user-attachments/assets/b9db5b19-6b0b-4617-8f51-5202fcb33a37" type="video/mp4">
 </video>
 
 ## Directory Structure
