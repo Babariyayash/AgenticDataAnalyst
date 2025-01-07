@@ -29,18 +29,14 @@ This project, **Agentic Data Analysis**, leverages cutting-edge technologies lik
 ## Installation and Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/agentic-data-analysis.git
+   git clone https://github.com/Babariyayash/AgenticDataAnalyst.git
    ```
-2. Navigate to the project directory:
-   ```bash
-   cd agentic-data-analysis
-   ```
-3. Create a virtual environment and activate it:
+2. Create a virtual environment and activate it:
    ```bash
    python -m venv .venv
    source .venv/bin/activate  # For Windows: .venv\Scripts\activate
    ```
-4. Install the required dependencies:
+3. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
@@ -48,7 +44,7 @@ This project, **Agentic Data Analysis**, leverages cutting-edge technologies lik
 ## How to Run
 1. Start the Streamlit application:
    ```bash
-   streamlit run python_visualisation_agent.py
+   streamlit run main.py --server.maxUploadSize 2000
    ```
 2. Access the application in your browser at `http://localhost:8501`.
 
@@ -58,42 +54,16 @@ This project, **Agentic Data Analysis**, leverages cutting-edge technologies lik
 ## Directory Structure
 ```
 agentic-data-analysis/
-├── graph/
-│   ├── state.py          # Manages shared state for workflows
-│   ├── nodes.py          # Defines LangGraph nodes for model/tool execution
-│   ├── tools.py          # Implements tools for task execution and visualization
+├── agent/
+│   ├── graph/
+│   │  ├── state.py          # Manages shared state for workflows
+│   │  ├── nodes.py          # Defines LangGraph nodes for model/tool execution
+│   │  ├── tools.py          # Implements tools for task execution and visualization
+│   ├── backend.py            # Main workflow management for LangGraph agents
+│   ├── data_models.py        # Defines data models
 ├── prompts/
 │   ├── main_prompt.md    # Defines LangGraph agent roles and behavior
-├── backend.py            # Main workflow management for LangGraph agents
-├── data_models.py        # Defines data models
-├── python_visualisation_agent.py  # Streamlit entry point
+├── main.py  # Streamlit entry point
 ├── requirements.txt      # Dependencies
 ├── README.md             # Project documentation
 ```
-
-## Contributing
-Contributions are welcome! To contribute:
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add your feature"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-5. Open a Pull Request.
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
-## Contact
-For questions or feedback, please contact:
-- **Name**: Your Name
-- **Email**: your.email@example.com
-- **GitHub**: [your-username](https://github.com/your-username)
-
