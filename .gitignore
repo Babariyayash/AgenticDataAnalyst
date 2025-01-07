@@ -1,0 +1,5 @@
+.env
+
+uploads/transactions_data.csv
+
+*.pyc
