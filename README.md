@@ -49,7 +49,12 @@ This project, **Agentic Data Analysis**, leverages cutting-edge technologies lik
 2. Access the application in your browser at `http://localhost:8501`.
 
 ## Demo Video
-[Click here to watch the demo video](#)
+Take a look at the below video for a demo:
+
+<video controls>
+  <source src="https://github.com/Babariyayash/AgenticDataAnalyst/issues/1#issue-2771779283" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Directory Structure
 ```
